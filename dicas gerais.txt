@@ -1,0 +1,3 @@
+ - para iniciar o esqueleto do projeto deve-se navegar até a pasta raiz e digitar no terminal: npx create-next-app;
+ - para atualizar as dependências do projeto deve-se navegar até a pasta do projeto e digitar no terminal: yarn;
+ - para criar o build da aplicação deve-se navegar até a pasta do projeto e digitar no terminal: yarn build;
