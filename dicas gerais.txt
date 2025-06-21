@@ -1,3 +1,7 @@
  - para iniciar o esqueleto do projeto deve-se navegar até a pasta raiz e digitar no terminal: npx create-next-app;
  - para atualizar as dependências do projeto deve-se navegar até a pasta do projeto e digitar no terminal: yarn;
+ - para iniciar o servidor de desenvolvimento deve-se navegar até a pasta do projeto e digitar no terminal: yarn dev;
  - para criar o build da aplicação deve-se navegar até a pasta do projeto e digitar no terminal: yarn build;
+ - para instalar o formatador prettier deve-se navegar até a pasta do projeto e digitar no terminal: npm install --save-dev --save-exact prettier prettier-plugin-tailwindcss
+ - as configurações de formatação do prettier estão no arquivo .prettierrc;
+ - para formatar o código com o prettier deve-se navegar até a pasta do projeto e digitar no terminal: npx prettier . --write;
