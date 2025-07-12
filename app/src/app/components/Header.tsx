@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 // import { useScroll } from '../hooks/useScroll';
 // import { Logo } from './Logo';
@@ -25,5 +26,22 @@ export default function Header() {
   //     router.push(`/search?${newParams.toString()}`);
   //   };
 
-  return <header className='fixed top-0 z-20 flex w-full'>Header</header>;
+  return <header className='fixed top-0 z-20 flex w-full items-center justify-between px-4 py-4 lg:px-10 lg:py-6'>
+
+    <Image
+      src='/logo.svg'
+      alt='NETFLIX'
+      width={120}
+      height={120}
+    />
+
+    <ul>
+      <li>Home</li>
+      <li>TV Shows</li>
+      <li>Movies</li>
+      <li>Latest</li>
+    </ul>
+
+
+  </header>;
 }
